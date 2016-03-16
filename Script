@@ -1,3 +1,5 @@
+apt-cache search libbz2	#搜索带有"libbz2"的安装包
+
 .		#当前目录
 ..		#父目录
 
