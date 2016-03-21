@@ -1,4 +1,8 @@
+gedit .bashrc		#打开环境变量配置文件
+
 apt-cache search libbz2	#搜索带有"libbz2"的安装包
+
+echo			#显示一行文本介绍
 
 .		#当前目录
 ..		#父目录
