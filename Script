@@ -1,5 +1,7 @@
 gedit .bashrc		#打开环境变量配置文件
 
+ctr-r		#根据输入索引历史command
+
 apt-cache search libbz2	#搜索带有"libbz2"的安装包
 
 echo			#显示一行文本介绍
