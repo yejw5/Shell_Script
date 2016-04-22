@@ -1,3 +1,7 @@
+ldconfig -p		#打印当前缓存文件所保存的所有共享库的名字
+
+eog  a.png		#打开图片a.png
+
 gedit .bashrc		#打开环境变量配置文件
 
 ctr-r		#根据输入索引历史command
