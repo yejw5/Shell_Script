@@ -1,3 +1,9 @@
+df -h						#查看磁盘使用情况
+
+du -sh					#查看当前目录的大小
+
+du -h --max-depth=1			#查看当前目录下深度为1的文件、文件夹大小
+
 gedit .bashrc		#打开环境变量配置文件
 
 ctr-r		#根据输入索引历史command
