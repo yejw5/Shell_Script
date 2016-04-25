@@ -4,6 +4,16 @@ du -sh					#查看当前目录的大小
 
 du -h --max-depth=1			#查看当前目录下深度为1的文件、文件夹大小
 
+ldd						#查看程序依赖库
+
+``						#貌似可以表示一段子命令的执行结果，eg：
+							#ldd `which mysql`	表示显示mysql的依赖库
+
+ldconfig -p		#打印当前缓存文件所保存的所有共享库的名字
+
+eog  a.png		#打开图片a.png
+>>>>>>> f60dc5d5280480109df11dbc734dca4591146ab9
+
 gedit .bashrc		#打开环境变量配置文件
 
 ctr-r		#根据输入索引历史command
