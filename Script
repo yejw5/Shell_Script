@@ -1,3 +1,8 @@
+ldd						#查看程序依赖库
+
+``						#貌似可以表示一段子命令的执行结果，eg：
+							#ldd `which mysql`	表示显示mysql的依赖库
+
 ldconfig -p		#打印当前缓存文件所保存的所有共享库的名字
 
 eog  a.png		#打开图片a.png
