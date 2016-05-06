@@ -1,5 +1,7 @@
 sed
 
+tail -f filename	#动态显示文件末尾内容
+
 pushd .					#将当前路径入栈
 
 popd						#转到栈头部的路径中
