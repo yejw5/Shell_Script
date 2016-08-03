@@ -1,3 +1,6 @@
+grep -rn "Hello World" *	#查询当前路径下所有文件中包含"Hello World"的行
+				#-r表示递归查找， -n表示显示行号， -i忽略大小写
+
 sed
 
 tail -f filename	#动态显示文件末尾内容
