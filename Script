@@ -1,3 +1,4 @@
+ls **/*.py		#列出当前目录下所有.py结尾的文件名
 grep -rn "Hello World" *	#查询当前路径下所有文件中包含"Hello World"的行
 				#-r表示递归查找， -n表示显示行号， -i忽略大小写
 				#find . -name "helloworld.cpp" 查找当前路径下文件名为helloworld.cpp的文件路径
