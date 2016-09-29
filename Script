@@ -1,3 +1,6 @@
+ln -s src dest		#将源文件src生成一个链接dest
+unlink dest		#取消链接
+
 ls **/*.py		#列出当前目录下所有.py结尾的文件名
 grep -rn "Hello World" *	#查询当前路径下所有文件中包含"Hello World"的行
 				#-r表示递归查找， -n表示显示行号， -i忽略大小写
