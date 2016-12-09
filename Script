@@ -1,4 +1,7 @@
-chown yejianwu README.md	#将README.md的文件所有者改为yejianwu
+netstat -ap | grep **	#查看**端口
+lsof -i:**		#查看**端口
+
+chown yejw5 README.md	#将README.md的文件所有者改为yejw5
 
 ln -s src dest		#将源文件src生成一个链接dest
 unlink dest		#取消链接
