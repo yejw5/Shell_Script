@@ -1,3 +1,7 @@
+. ./path.sh #path.sh中包含export环境变量的语句，这个命令可以将path.sh中export的环境变量同步到当前shell用户的环境中
+
+md5sum **		#对**做md5校验
+
 netstat -ap | grep **	#查看**端口
 lsof -i:**		#查看**端口
 
